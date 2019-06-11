@@ -1,0 +1,22 @@
+
+<center>  <h1> 하이루 단어세기 </h1> </center>
+
+<body>
+
+    <div class="box"> 
+<style>
+.box{margin:auto; width:500px; height:500px; background-color: #CCF;}
+
+</style>
+    
+<a href="{% url 'about' %}">ABOUT</a>
+
+<form action="{% url 'result' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value="Count!">
+</form>
+
+
+</div>
+</body>
